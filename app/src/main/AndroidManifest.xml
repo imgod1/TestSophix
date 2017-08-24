@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kk.testsophix">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:name=".app.app"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="24598007-1" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="62a3cd14646467564446843354dc8de6" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDfrdxDYSj+/LzHVcu+7N5A/XOWEhXdKHNWkqBj27pDQ4bCNeycFXrn/2YsgRCmJzgjt1C/N72/fSNwUo1QHA6SCgCbqc3Mq+oE0YhDESOMQMx7AabIBCXk0m0Q5lP7o/J4+rnBoya2j03erYIT9aVDr89CH6u125Mu8fEXwf/o8dkW4zCOlpQ0oWv6Z9KiJcKXm7eS1jStxMlyTVKldPI7avFJq6qPOu4vBuACsGs23flsV1jEj5098sear4ywMdFPs4pq7aKiPms8Brf0DOnb0i9k/nHAqsYR4/XNSUGj/8q0vt1e6Ycv3+dqlOdauaeJL3RWJuIFExto9eOyZNeNAgMBAAECggEAU9PDlZjnFVDAqu/TcNUyoiaaV+alPQH437wJ0gK59pVq/oPZDdHbAvEraIhiJfLSzkfYQiFwwj/ytRirDxfEuiR3f98OWqMfC/k+2OumZ9ytBXhj+dfcH7pg15GKbedOatqEHTa4vnhMVaSu+C36ZriPsxdNcdU9fr17fkzdTH4LRoGyA+Ii1VxhYin9Pl+xeWfnDpvqqfDhP/3HiOfBG54WFpLEHxiRpnV3V+gOuVlNlMQsC/8hEkaoiOpkQZqAkEJo+ZEHKtAWtKy5RAPQUIsJphGX4UpIbdOv3FoRsgQGBWKjeZnONkih5kY4WAOzkD+JCi/AXVtIQZeDN/X2oQKBgQD3xN9eWIvZmhy2xANw1zxpWLlmrSRrByPIUEvw3EzHIOXxjP7QNKcHMr+fcp+F5KF6Y0H2QPUYkmSnXEscn5BSZdk2DBXsJpeAh4BcUx/LVepB29AwqJXoZvQ1BadSrXLHdT8KIe8ptvSOzaXzt7g8oKEAKOL3LrxzzvwpRMK/qQKBgQDnHB4k7sHao4g2cSHmUVEvNWJ+W27rzwMyohVQ1K6IEA2DL3SCXTJ4cEO7NObqafLLtODizzMxrYHRfePjhVm16xVCSWmwqyr99X9dXI+PBohrbzw4vxaGrQ0biGA8knN0fW++bmwCZR4ACgJXr1iO+6ks6t9vAAjHIeeVbpcXRQKBgGahw1DmZs+1Wc2PNkmorpqIqQvSDrLS20yfjkVwS9F0XCuJlweRt9pweBXJOjEROp5ivTEPSTdrdIwq2+Y4ZmTrUWVk7jPK7JjOCCq2OAZXSVkMf5mYS7hf5SqNc/j4ZgIfHATLd7EU2wrIPsTMxmE+vFI/nXx8fI2QIL3LgMw5AoGAE8pImokHeJ2AUIknif10okJECOXzfaXgdDmE8cMEnwog3hb2NyOb6sxSQHmrPG+OJvt6NnHfxGVDNJk/JoCIyhczXtXCgyplKBIZsfj3IhxBGlIQKhvS5f1znePzubwgvtzu8LOr9BiMlRxGTxPo1XWfawVB1NN/7O1uU1GBBrECgYAB9+6cAc0Cv4naFzube4fCdKUadbhaeqamyJ1TgwNLvzlF9gpFn0KctlKY+/Hyu8AYnojkfx1DByN8lGWiCKioGouBtJeoMfMAdZv/GtkxVDEpnoMs/Jl8Lgl5O2iIN2VmTL0qwSFdej5UoI8ce0fGe1jfBlQziKSqERuPbCWoEQ==" />
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
